@@ -1,0 +1,30 @@
+2021-04-22 12:17:15:1715 [32minfo[39m: [32mThis is an error log[39m
+2021-04-22 12:18:22:1822 [32minfo[39m: [32mThis is an get log[39m
+2021-04-22 12:21:45:2145 [32minfo[39m: [32mThis is an get log[39m
+2021-04-22 12:21:51:2151 [32minfo[39m: [32mThis is an get log[39m
+2021-04-22 12:22:47:2247 [32minfo[39m: [32mThis is an get log[39m
+2021-04-22 12:23:58:2358 [32minfo[39m: [32mThis is an get log[39m
+2021-04-22 12:23:58:2358 [31merror[39m: [31mTicket validation failed: movieName: Path `movieName` is required.[39m
+2021-04-22 12:45:15:4515 [32minfo[39m: [32mfirstName is required[39m
+2021-04-22 14:21:57:2157 [32minfo[39m: [32mThis is an error log[39m
+2021-04-22 15:04:40:440 [32minfo[39m: [32mThis is an get log[39m
+2021-04-22 15:04:52:452 [32minfo[39m: [32mThis is an error log[39m
+2021-04-22 15:48:10:4810 [32minfo[39m: [32mThis is an error log[39m
+2021-04-22 15:50:46:5046 [32minfo[39m: [32mThis is an get log[39m
+2021-04-22 15:51:34:5134 [32minfo[39m: [32mThis is an get log[39m
+2021-04-22 15:51:34:5134 [31merror[39m: [31mTicket validation failed: movieName: Path `movieName` is required.[39m
+2021-04-26 18:32:46:3246 [32minfo[39m: [32mget information about the movieName[39m
+2021-04-26 18:33:37:3337 [32minfo[39m: [32mget information about the movieName[39m
+2021-04-26 18:34:43:3443 [32minfo[39m: [32mThis is an get log[39m
+2021-04-26 18:36:58:3658 [32minfo[39m: [32mget information about the movieName[39m
+2021-04-27 10:59:58:5958 [32minfo[39m: [32mThis is an get log[39m
+2021-04-27 16:42:04:424 [32minfo[39m: [32mThis is an get log[39m
+2021-04-27 16:42:18:4218 [32minfo[39m: [32mget information about the movieName[39m
+2021-04-27 19:51:20:5120 [32minfo[39m: [32mThis is an get log[39m
+2021-04-27 19:51:36:5136 [32minfo[39m: [32mget information about the movieName[39m
+2021-04-27 20:11:32:1132 [32minfo[39m: [32mupdate ticket by id[39m
+2021-04-27 20:27:22:2722 [32minfo[39m: [32mupdate ticket by id[39m
+2021-04-27 20:36:49:3649 [32minfo[39m: [32mcreate ticket[39m
+2021-04-27 20:36:59:3659 [32minfo[39m: [32mget information about the movie[39m
+2021-04-27 20:38:38:3838 [32minfo[39m: [32mupdate ticket by id[39m
+2021-04-27 20:39:46:3946 [32minfo[39m: [32mupdate ticket by id[39m
