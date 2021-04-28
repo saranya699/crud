@@ -13,18 +13,31 @@ export class TicketDao {
   }
   public async updateOneTicket(id: string, body: TicketModel) {
     try {
-      const ticketFound = await TicketModel.findByIdAndUpdate(id,body);
-      
-      
-      console.log("ticketFound", ticketFound);
-      if (!ticketFound) {
-        Logger.error("ticket not found");
-        return "ticket not found";
-      }
-      return ticketFound;
+    const testdata = await  TicketModel.findOneAndUpdate(
+        { _id: id },
+        body,
+        { upsert: true },
+        function (res, err) {
+          console.log("res --->", res);
+          return res;
+        }
+      );
+      return testdata;
+
+      //  const ticket = await TicketModel.findById(id);
+      //   console.log("check ----> ", ticket)
+      //   if (ticket !== null) {
+      //     ticket.movieName = body.movieName;
+      //     ticket.movieStartTime = body.movieStartTime;
+      //     ticket.movieEndTime = body.movieEndTime;
+      //     await TicketModel.updateOne(ticket);
+      //     return ticket
+      //   } else {
+      //     return { message: "no Ticket Found for ID" };
+      //   }
     } catch (err) {
-      
-      return { message: "error occured" };
+      console.log("test data  --. ", err);
+      return { message: "error occured while update" };
     }
   }
 }
