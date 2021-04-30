@@ -1,4 +1,5 @@
 import cors from "cors";
+
 import express from "express";
 import { MongoConfig } from "./config/mongoConfig";
 import Logger from "./config/logger";
@@ -20,9 +21,9 @@ ticket.ticketRouter(app);
 
 user.userRouter(app);
 
- app.listen(3000, () => {
-  console.log("App is listening on port 3000");
-});
+ app.listen(3000,() => {
+     console.log('app is listening on the port');
+ });
  
 export default app;
   
