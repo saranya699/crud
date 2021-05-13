@@ -26,7 +26,7 @@ export class TicketDao {
     try {
       const testdata = await TicketModel.findOneAndUpdate(
         { _id: id },
-        body,
+         body,
         { upsert: true },
         function (res, err) {
           console.log("res --->", res);

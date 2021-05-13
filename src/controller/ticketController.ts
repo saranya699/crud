@@ -12,7 +12,7 @@ export class TicketController {
 
   public async ticketCreate(req: Request, res: Response) {
     Logger.info("create ticket");
-    try {
+     try {
       const ticket = await ticketService.ticketCreate(req.body);
       res.status(200).json(ticket);
     } catch (err) {

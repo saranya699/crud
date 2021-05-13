@@ -13,6 +13,6 @@ export class TicketRoute {
     app.get("/ticket", ticketController.getTicket);
     app.get("/ticket/:id", ticketController.getTicketById);
     app.put("/ticket/:id", ticketController.updateOneTicket);
-    app.get("/ticket/:status", ticketController.getAllTicketByStatus);
+    app.get("/tickets/:status", ticketController.getAllTicketByStatus);
   }
 }

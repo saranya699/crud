@@ -2,8 +2,7 @@ import mongoose from "mongoose";
 
 export class MongoConfig {
   constructor() {
-    mongoose
-      .connect(
+    mongoose.connect(
         "mongodb+srv://saranya:saranya@cluster0.4btho.mongodb.net/saraDb?retryWrites=true&w=majority",
         { useNewUrlParser: true, useUnifiedTopology: true }
       )

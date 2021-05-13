@@ -95,3 +95,47 @@
 2021-04-30 20:36:13:3613 [32minfo[39m: [32mupdate ticket by id[39m
 2021-04-30 20:36:44:3644 [32minfo[39m: [32mupdate ticket by id[39m
 2021-04-30 21:22:02:222 [32minfo[39m: [32mget ticket by id[39m
+2021-05-03 10:01:00:10 [32minfo[39m: [32mupdate ticket by id[39m
+2021-05-04 18:36:52:3652 [32minfo[39m: [32mcreate ticket[39m
+2021-05-05 12:21:53:2153 [32minfo[39m: [32mcreate ticket[39m
+2021-05-05 12:23:13:2313 [32minfo[39m: [32mget information about the movie[39m
+2021-05-05 12:27:28:2728 [32minfo[39m: [32mcreate ticket[39m
+2021-05-05 12:33:16:3316 [32minfo[39m: [32mcreate ticket[39m
+2021-05-05 12:33:16:3316 [31merror[39m: [31mTicket validation failed: movieName: Path `movieName` is required.[39m
+2021-05-05 12:34:47:3447 [32minfo[39m: [32mcreate ticket[39m
+2021-05-05 12:36:57:3657 [32minfo[39m: [32mget information about the movie[39m
+2021-05-05 12:39:04:394 [32minfo[39m: [32mupdate ticket by id[39m
+2021-05-05 12:39:41:3941 [32minfo[39m: [32mget ticket by id[39m
+2021-05-05 12:40:01:401 [32minfo[39m: [32mget ticket by id[39m
+2021-05-05 12:40:10:4010 [32minfo[39m: [32mget ticket by id[39m
+2021-05-05 12:40:59:4059 [32minfo[39m: [32mupdate ticket by id[39m
+2021-05-05 12:41:45:4145 [32minfo[39m: [32mget ticket by id[39m
+2021-05-05 12:41:57:4157 [32minfo[39m: [32mget ticket by id[39m
+2021-05-05 12:43:29:4329 [32minfo[39m: [32mget ticket by id[39m
+2021-05-05 12:44:32:4432 [32minfo[39m: [32mget ticket by id[39m
+2021-05-05 12:45:50:4550 [32minfo[39m: [32mupdate ticket by id[39m
+2021-05-05 12:46:37:4637 [32minfo[39m: [32mget ticket by id[39m
+2021-05-05 12:47:26:4726 [32minfo[39m: [32mget ticket by id[39m
+2021-05-05 12:47:44:4744 [32minfo[39m: [32mget ticket by id[39m
+2021-05-05 12:48:19:4819 [32minfo[39m: [32mget ticket by id[39m
+2021-05-05 12:49:40:4940 [32minfo[39m: [32mget ticket by id[39m
+2021-05-05 12:52:56:5256 [31merror[39m: [31mif the ticket is active otherwise it throws an error[39m
+2021-05-05 12:54:02:542 [31merror[39m: [31mif the ticket is active otherwise it throws an error[39m
+2021-05-05 12:54:41:5441 [32minfo[39m: [32mget ticket by id[39m
+2021-05-05 12:54:48:5448 [31merror[39m: [31mif the ticket is active otherwise it throws an error[39m
+2021-05-11 10:47:52:4752 [32minfo[39m: [32mcreate ticket[39m
+2021-05-11 10:49:14:4914 [32minfo[39m: [32mget information about the movie[39m
+2021-05-11 10:51:36:5136 [32minfo[39m: [32mupdate ticket by id[39m
+2021-05-11 10:51:56:5156 [32minfo[39m: [32mget ticket by id[39m
+2021-05-11 10:53:40:5340 [32minfo[39m: [32mupdate ticket by id[39m
+2021-05-11 10:54:32:5432 [31merror[39m: [31mif the ticket is active otherwise it throws an error[39m
+2021-05-11 10:55:03:553 [31merror[39m: [31mif the ticket is active otherwise it throws an error[39m
+2021-05-11 12:15:31:1531 [32minfo[39m: [32mfirstName is required[39m
+2021-05-11 12:19:13:1913 [32minfo[39m: [32mfirstName is required[39m
+2021-05-12 12:14:11:1411 [32minfo[39m: [32mcreate ticket[39m
+2021-05-12 12:14:25:1425 [32minfo[39m: [32mget information about the movie[39m
+2021-05-12 12:14:37:1437 [32minfo[39m: [32mget ticket by id[39m
+2021-05-12 12:14:47:1447 [32minfo[39m: [32mupdate ticket by id[39m
+2021-05-12 12:14:57:1457 [31merror[39m: [31mif the ticket is active otherwise it throws an error[39m
+2021-05-12 12:15:03:153 [31merror[39m: [31mif the ticket is active otherwise it throws an error[39m
+2021-05-12 12:15:11:1511 [32minfo[39m: [32mfirstName is required[39m
